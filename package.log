@@ -1,0 +1,94 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hello-springboot 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.pom
+1/10 KB   3/10 KB   4/10 KB   6/10 KB   7/10 KB   8/10 KB   10/10 KB   10/10 KB              Downloaded: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.pom (10 KB at 2.6 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.jar
+1/90 KB    3/90 KB   4/90 KB   5/90 KB   7/90 KB   8/90 KB   10/90 KB   11/90 KB   12/90 KB   14/90 KB   15/90 KB   16/90 KB   18/90 KB   19/90 KB   21/90 KB   22/90 KB   23/90 KB   25/90 KB   26/90 KB   27/90 KB   29/90 KB   30/90 KB   31/90 KB   33/90 KB   34/90 KB   36/90 KB   37/90 KB   38/90 KB   40/90 KB   41/90 KB   42/90 KB   44/90 KB   45/90 KB   47/90 KB   48/90 KB   49/90 KB   51/90 KB   52/90 KB   53/90 KB   55/90 KB   56/90 KB   57/90 KB   59/90 KB   60/90 KB   62/90 KB   63/90 KB   64/90 KB   66/90 KB   67/90 KB   68/90 KB   70/90 KB   71/90 KB   72/90 KB   74/90 KB   75/90 KB   77/90 KB   78/90 KB   79/90 KB   81/90 KB   82/90 KB   83/90 KB   85/90 KB   86/90 KB   88/90 KB   89/90 KB   90/90 KB              Downloaded: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.jar (90 KB at 35.1 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ hello-springboot ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ hello-springboot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ hello-springboot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\project\hello-springboot\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ hello-springboot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\project\hello-springboot\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ hello-springboot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to E:\project\hello-springboot\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ hello-springboot ---
+Downloading: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom
+1/7 KB     3/7 KB   4/7 KB   6/7 KB   7/7 KB   7/7 KB            Downloaded: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom (7 KB at 1.9 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar
+1/65 KB   3/65 KB   4/65 KB   5/65 KB   7/65 KB   8/65 KB   10/65 KB   11/65 KB   12/65 KB   14/65 KB   15/65 KB   16/65 KB   18/65 KB   19/65 KB   21/65 KB   22/65 KB   23/65 KB   25/65 KB   26/65 KB   27/65 KB   29/65 KB   30/65 KB   31/65 KB   33/65 KB   34/65 KB   36/65 KB   37/65 KB   38/65 KB   40/65 KB   41/65 KB   42/65 KB   44/65 KB   45/65 KB   47/65 KB   48/65 KB   49/65 KB   51/65 KB   52/65 KB   53/65 KB   55/65 KB   56/65 KB   57/65 KB   59/65 KB   60/65 KB   62/65 KB   63/65 KB   64/65 KB   65/65 KB              Downloaded: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar (65 KB at 13.9 KB/sec)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.hjj.hellospringboot.HelloSpringbootApplicationTests
+18:08:34.458 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:08:34.477 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:08:34.523 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.hjj.hellospringboot.HelloSpringbootApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:08:34.542 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hjj.hellospringboot.HelloSpringbootApplicationTests], using SpringBootContextLoader
+18:08:34.548 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hjj.hellospringboot.HelloSpringbootApplicationTests]: class path resource [com/hjj/hellospringboot/HelloSpringbootApplicationTests-context.xml] does not exist
+18:08:34.548 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hjj.hellospringboot.HelloSpringbootApplicationTests]: class path resource [com/hjj/hellospringboot/HelloSpringbootApplicationTestsContext.groovy] does not exist
+18:08:34.549 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.hjj.hellospringboot.HelloSpringbootApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:08:34.550 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hjj.hellospringboot.HelloSpringbootApplicationTests]: HelloSpringbootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:08:34.601 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hjj.hellospringboot.HelloSpringbootApplicationTests]
+18:08:34.685 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\project\hello-springboot\target\classes\com\hjj\hellospringboot\HelloSpringbootApplication.class]
+18:08:34.688 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hjj.hellospringboot.HelloSpringbootApplication for test class com.hjj.hellospringboot.HelloSpringbootApplicationTests
+18:08:34.869 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.hjj.hellospringboot.HelloSpringbootApplicationTests]: using defaults.
+18:08:34.870 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:08:34.892 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:08:34.893 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:08:34.893 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5f9678e1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c4ed84, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@189aa67a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a9d6f02, org.springframework.test.context.support.DirtiesContextTestExecutionListener@362045c0, org.springframework.test.context.event.EventPublishingTestExecutionListener@112f364d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ccbeb64, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6d9f7a80, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@59252cb6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31d0e481, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3243b914]
+18:08:34.899 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1b765a2c testClass = HelloSpringbootApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2e8e8225 testClass = HelloSpringbootApplicationTests, locations = '{}', classes = '{class com.hjj.hellospringboot.HelloSpringbootApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@20bd8be5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@10289886, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@45efd90f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4bff7da0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+18:08:34.930 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2020-03-07 18:08:35.396  INFO 11308 --- [           main] c.h.h.HelloSpringbootApplicationTests    : Starting HelloSpringbootApplicationTests on OSNK38NEIMVSDXP with PID 11308 (started by Administrator in E:\project\hello-springboot)
+2020-03-07 18:08:35.398  INFO 11308 --- [           main] c.h.h.HelloSpringbootApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-07 18:08:37.423  INFO 11308 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-07 18:08:37.774  INFO 11308 --- [           main] c.h.h.HelloSpringbootApplicationTests    : Started HelloSpringbootApplicationTests in 2.834 seconds (JVM running for 4.914)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.981 s - in com.hjj.hellospringboot.HelloSpringbootApplicationTests
+2020-03-07 18:08:38.396  INFO 11308 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-war-plugin:3.2.3:war (default-war) @ hello-springboot ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-springboot] in [E:\project\hello-springboot\target\hello-springboot-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [711 msecs]
+[INFO] Building war: E:\project\hello-springboot\target\hello-springboot-0.0.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.5.RELEASE:repackage (repackage) @ hello-springboot ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 36.517 s
+[INFO] Finished at: 2020-03-07T18:08:42+08:00
+[INFO] Final Memory: 31M/107M
+[INFO] ------------------------------------------------------------------------
